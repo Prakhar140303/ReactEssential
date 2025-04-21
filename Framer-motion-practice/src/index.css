@@ -1,0 +1,28 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family: 'Gilroy', 'Segoe UI', sans-serif;
+    color : white;
+}
+html,body {
+    height : 100%;
+    width : 100%;
+}
+body {
+    background-color : #111;
+
+}
+.box {
+ height : 200px;
+ width : 200px;
+ background-color : #9911ff;
+ border : 3px solid #fff;
+}
+.circle {
+ height : 200px;
+ width : 200px;
+ background-color : #9911ffgit ;
+ border-radius : 50%;
+ border : 3px solid #fff;
+}
