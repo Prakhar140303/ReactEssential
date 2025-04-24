@@ -19,6 +19,10 @@ const App = () => {
         x: 1000
       }}>  
       </motion.div>
+      <motion.div className='circle' animate={{
+        x: 1000
+      }}>  
+      </motion.div>
     </div>
 
   )
