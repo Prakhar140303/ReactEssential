@@ -1,28 +1,13 @@
-import React from 'react'
+import React,{} from 'react'
 import {motion} from 'framer-motion'
+
 const App = () => {
   return (
-    <div>
-      <motion.div className='box' 
-      initial ={{scale :0}}
-      whileHover={{scale:1.2}}
-      whileTap={{scale:0.8}}
-      animate={{
-        scale: 1,
-        x: 1000,
-        rotate: 360
-      }}
-      transition={{ duration: 2}}
-      >
-      </motion.div>
-      <motion.div className='circle' animate={{
-        x: 1000
-      }}>  
-      </motion.div>
-      <motion.div className='circle' animate={{
-        x: 1000
-      }}>  
-      </motion.div>
+    <div className=' p-20 text-white text-center font-mono'>
+      <div className='bg-red-500 w-full h-3 fixed top-0 left-0'>
+      </div>
+      <h2 className='text-4xl font-bold mb-8'>Prakhar Singh Parihar</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint porro tenetur maxime libero dolor vitae neque quaerat temporibus aut? Odit temporibus, quae nobis sit eligendi commodi reiciendis quam tempore! Ipsum. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt suscipit perspiciatis autem optio non unde repellat enim neque voluptate consectetur dolores pariatur corrupti aliquid exercitationem fugiat, consequuntur tempore minus. Dolorum odit facere laborum nulla incidunt consequatur quo quisquam, neque doloremque, tempora recusandae iusto sunt id corrupti hic voluptate repudiandae maxime vel, repellendus vero? Nihil vel fuga quos molestias! Quibusdam, earum minus! Recusandae porro a, ratione itaque consectetur facere ea molestiae magni laudantium fugiat, harum totam iste minima reprehenderit illum distinctio nulla. Officiis, exercitationem optio facilis vel, tempore impedit aspernatur illo quidem eos cum nulla amet nisi rerum officia dolor asperiores laboriosam provident labore laborum? Explicabo unde quibusdam error voluptas labore itaque magni ullam ab! Impedit laborum eum explicabo dolore earum illo reiciendis quia optio facilis corporis, recusandae placeat maxime error neque aliquam enim, vel, consectetur modi incidunt quam fugiat nam doloribus? Vitae magni unde odio atque, eaque nobis. Vitae suscipit tempora eius aliquam placeat neque praesentium, possimus id enim. Quisquam, ducimus suscipit perferendis nulla rerum sint sunt, minima et molestiae magnam ad culpa temporibus eum soluta cupiditate quibusdam a mollitia minus ea, voluptas fugiat. Mollitia repellendus, excepturi deserunt sequi beatae accusantium vitae odit aliquam doloribus nulla, reiciendis inventore error neque. <br /> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum animi voluptas mollitia dolore facilis ducimus hic commodi earum et exercitationem, distinctio tempore nostrum. Voluptatem, facilis rem perferendis unde dolorem in non necessitatibus error modi, doloribus tempora quam quaerat aperiam magnam enim provident nostrum nemo aut sequi maiores officia neque cumque rerum odio! Quibusdam, in cupiditate. Animi possimus magni quis sequi sint dicta odio ipsum provident, labore inventore quos quo pariatur, non sed eveniet explicabo perferendis et aperiam numquam iure, cupiditate laudantium? Exercitationem sequi earum quia labore qui modi impedit quas perferendis rem veniam atque repellat corrupti facilis odit pariatur tempore non omnis natus culpa reprehenderit sit unde, expedita, vel inventore! Explicabo magnam perspiciatis praesentium possimus placeat temporibus quo architecto ipsam? Odio veniam alias suscipit molestiae et libero provident dignissimos veritatis, laborum omnis corrupti tempore nostrum pariatur aliquam quis exercitationem labore maxime! Repudiandae numquam quos saepe, laborum quasi iste optio aspernatur vitae ullam recusandae rem officiis a cumque, necessitatibus natus voluptate quidem. Hic iusto eaque, ullam at qui veniam quam. Obcaecati esse amet iure, nobis sint distinctio ipsa voluptate. Voluptatibus iusto non ducimus voluptate perferendis obcaecati adipisci, consequatur dolores pariatur totam minima, numquam repudiandae praesentium odit repellat beatae dolorem, placeat dignissimos?</p>
     </div>
 
   )
